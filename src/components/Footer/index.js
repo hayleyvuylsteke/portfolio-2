@@ -13,10 +13,11 @@ function Footer() {
 
     return (
         <section className="section-block-purple">
+            <Container>
             <Row>
                 <Col className="col-12 divider" />
             </Row>
-        <section className="section-block-purple">
+        <section className="color-block-purple">
             <Container>
             <Row className="section-block-content">
                 <Col className="col-lg-6 col-md-12">
@@ -37,6 +38,7 @@ function Footer() {
             </Row>
             </Container>
         </section>
+        </Container>
         </section>
     )
 

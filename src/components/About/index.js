@@ -104,7 +104,7 @@ function About() {
             <Row className="section-spacing">
                 <Col className="col-1" />
                 <Col className="col-lg-5 col-md-12">
-                <img className="head-shot" src={valuesPassions} alt="Values and Passions icon" />
+                <img className="values-img" src={valuesPassions} alt="Values and Passions icon" />
                 </Col>
                 <Col className="col-lg-5 col-md-12">
                 <h5 className="header-almostBlack">Being Bold</h5>

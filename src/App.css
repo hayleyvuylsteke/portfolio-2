@@ -113,7 +113,7 @@ h5 {
 }
 
 .logo-image {
-  width: 300px;
+  width: 100%;
 }
 
 .pill-styles {
@@ -141,6 +141,10 @@ h5 {
 .head-shot {
   width: 500px;
   height: 500px;
+  vertical-align: top;
+}
+.values-img {
+  width: 100%;
   vertical-align: top;
 }
 
@@ -216,8 +220,8 @@ h5 {
 }
 /*FOOTER STYLES */
 .divider{
-  margin-left:100px;
-  margin-right:100px;
+  margin-left:auto;
+  margin-right:auto;
   padding-top:4px;
   background-color: var(--turquoise);
 }
