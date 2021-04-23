@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-2/static/css/main.6f64baaf.chunk.css",
+    "main.js": "/portfolio-2/static/js/main.3ff5d6e7.chunk.js",
+    "main.js.map": "/portfolio-2/static/js/main.3ff5d6e7.chunk.js.map",
+    "runtime-main.js": "/portfolio-2/static/js/runtime-main.5a4d6cb0.js",
+    "runtime-main.js.map": "/portfolio-2/static/js/runtime-main.5a4d6cb0.js.map",
+    "static/js/2.68a6750d.chunk.js": "/portfolio-2/static/js/2.68a6750d.chunk.js",
+    "static/js/2.68a6750d.chunk.js.map": "/portfolio-2/static/js/2.68a6750d.chunk.js.map",
+    "static/js/3.fc797e7e.chunk.js": "/portfolio-2/static/js/3.fc797e7e.chunk.js",
+    "static/js/3.fc797e7e.chunk.js.map": "/portfolio-2/static/js/3.fc797e7e.chunk.js.map",
+    "index.html": "/portfolio-2/index.html",
+    "static/css/main.6f64baaf.chunk.css.map": "/portfolio-2/static/css/main.6f64baaf.chunk.css.map",
+    "static/js/2.68a6750d.chunk.js.LICENSE.txt": "/portfolio-2/static/js/2.68a6750d.chunk.js.LICENSE.txt",
+    "static/media/Hayley_Vuylsteke_Logo.a5b25193.gif": "/portfolio-2/static/media/Hayley_Vuylsteke_Logo.a5b25193.gif",
+    "static/media/Martech-logos.96e4281f.png": "/portfolio-2/static/media/Martech-logos.96e4281f.png",
+    "static/media/certification-icon.414bd7b2.png": "/portfolio-2/static/media/certification-icon.414bd7b2.png",
+    "static/media/continuous-ed.d80d938f.png": "/portfolio-2/static/media/continuous-ed.d80d938f.png",
+    "static/media/em-logo.c1977d14.png": "/portfolio-2/static/media/em-logo.c1977d14.png",
+    "static/media/gear-icon.c26797ba.png": "/portfolio-2/static/media/gear-icon.c26797ba.png",
+    "static/media/github-logo.4d74fd76.png": "/portfolio-2/static/media/github-logo.4d74fd76.png",
+    "static/media/hayley-headshot-animated.18a6f7aa.gif": "/portfolio-2/static/media/hayley-headshot-animated.18a6f7aa.gif",
+    "static/media/hayley-logo-static.39331c10.png": "/portfolio-2/static/media/hayley-logo-static.39331c10.png",
+    "static/media/managing-icon.2ae28bc2.png": "/portfolio-2/static/media/managing-icon.2ae28bc2.png",
+    "static/media/school-img.866d768b.png": "/portfolio-2/static/media/school-img.866d768b.png",
+    "static/media/tech-logos.54704f11.png": "/portfolio-2/static/media/tech-logos.54704f11.png",
+    "static/media/values-passions.025be29c.gif": "/portfolio-2/static/media/values-passions.025be29c.gif",
+    "static/media/web-dev-icon.843f857e.png": "/portfolio-2/static/media/web-dev-icon.843f857e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a4d6cb0.js",
+    "static/js/2.68a6750d.chunk.js",
+    "static/css/main.6f64baaf.chunk.css",
+    "static/js/main.3ff5d6e7.chunk.js"
+  ]
+}
