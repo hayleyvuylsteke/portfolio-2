@@ -162,8 +162,7 @@ function Qualifications() {
                     <ul>
                         <li>Drift's Conversational Marketing Certificate</li>
                         <li>Google Analytics Certification</li>
-                        <li>ADD UDEMY COURSE</li>
-                        <li>ADD UDEMY COURSE</li>
+                        <li>SEMRush SEO Certification</li>
                     </ul>
                 </Col>
                 <Col className="col-1"/>

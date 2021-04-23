@@ -12,33 +12,30 @@ function Contact() {
     const { firstName, lastName, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
-    function handleChange(e) {
+    const handleChange = (e) => {
       if (e.target.name === 'email') {
         const isValid = validateEmail(e.target.value);
-        console.log(isValid);
-        // isValid conditional statement
         if (!isValid) {
           setErrorMessage('Your email is invalid.');
         } else {
-          if (!e.target.value.length) {
-            setErrorMessage(`${e.target.name} is required.`);
-          } else {
-            setErrorMessage('');
-          }
+          setErrorMessage('');
         }
-      }  
-      console.log('errorMessage', errorMessage);
-      if (!errorMessage) {
-        setFormState({ ...formState, [e.target.name]: e.target.value });
+      } else {
+        if (!e.target.value.length) {
+          setErrorMessage(`${e.target.name} is required.`);
+        } else {
+          setErrorMessage('');
+        }
       }
-    }
-    
+    };
+  
+    //
     console.log(formState);
 
       const handleSubmit = (e) => {
         e.preventDefault();
         if (!errorMessage) {
-         // setFormState({ [e.target.name]: e.target.value });
+         setFormState({ [e.target.name]: e.target.value });
           console.log('Form', formState);
         }
       };
@@ -61,11 +58,11 @@ function Contact() {
                     <Form>
                         <Form.Group controlId="firstname">
                             <Form.Label>First name:</Form.Label>
-                                <Form.Control type="firstname" placeholder="Your first name" defaultValue={firstName} onBlur={handleChange} name="firstName" />
+                                <Form.Control type="firstname" placeholder="Your first name" defaultValue={firstName} onBlur={handleChange} name="Your first name" />
                         </Form.Group>
                         <Form.Group controlId="firstname">
                             <Form.Label>Last name:</Form.Label>
-                                <Form.Control type="lastname" placeholder="Your last name" defaultValue={lastName} onBlur={handleChange} name="lastName"  />
+                                <Form.Control type="lastname" placeholder="Your last name" defaultValue={lastName} onBlur={handleChange} name="Your last name"  />
                         </Form.Group>
                         <Form.Group controlId="exampleForm.ControlInput1">
                             <Form.Label>Email address</Form.Label>
