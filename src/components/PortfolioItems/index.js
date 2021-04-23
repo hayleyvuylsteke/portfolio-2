@@ -13,7 +13,7 @@ function PortfolioItem({ category }) {
           name: 'Reward Bank',
           category: 'Full-stack Development',
           description: 'Ready to take your childs allowance cashless? Enter Reward Bank. Turning kids into super (well-behaved) kids since 2021',
-          image: '/reward-bank.png',
+          image: '/portfolio-2/reward-bank.png',
           githubUrl: 'https://github.com/UTBootCampGroup2Project2/reward-bank',
           deployedURL: 'https://rocky-dawn-18669.herokuapp.com/#'
         },
@@ -21,7 +21,7 @@ function PortfolioItem({ category }) {
         name: 'Date Conceirge',
         category: 'Full-stack Development',
         description: 'Dating sucks. Let Date Conceirge make it suck less. We ll take the planning off your hands.',
-        image: '/date-conceirge.png',
+        image: '/portfolio-2/date-conceirge.png',
         githubUrl: 'https://github.com/ProjectOneTeamFour/date-concierge',
         deployedURL: 'https://projectoneteamfour.github.io/date-concierge/'
         },
@@ -29,7 +29,7 @@ function PortfolioItem({ category }) {
         name: 'She Talks Tech',
         category: 'Full-stack Development',
         description: 'The tech industry is domindated by men. She Talks Tech is a safe space for all the femme coders to connect, network and learn.',
-        image: '/she-talks-tech-lg.png',
+        image: '/portfolio-2/she-talks-tech-lg.png',
         githubUrl: 'https://github.com/hayleyvuylsteke/she-talks-tech',
         deployedURL: 'http://she-talks-tech.herokuapp.com/'
       },
@@ -37,7 +37,7 @@ function PortfolioItem({ category }) {
         name: 'Budget Tracker',
         category: 'Full-stack Development',
         description: 'For the avid traveler, track your purchases and deposits while your away without the worry of internet connectivity.',
-        image: '/budget-tracker.png',
+        image: '/portfolio-2/budget-tracker.png',
         githubUrl: 'https://github.com/hayleyvuylsteke/budget-tracker',
         deployedURL: 'https://shielded-sierra-25762.herokuapp.com/'
       },
@@ -45,7 +45,7 @@ function PortfolioItem({ category }) {
         name: 'Note Taker',
         category: 'Full-stack Development',
         description: 'Need a space to keep track of your thoughts, feelings and to-do list? Note Taker is here to help.',
-        image: '/note-taker.png',
+        image: '/portfolio-2/note-taker.png',
         githubUrl: 'https://github.com/hayleyvuylsteke/express-note-taker',
         deployedURL: 'https://hayleys-note-taker.herokuapp.com/'
       },
@@ -53,7 +53,7 @@ function PortfolioItem({ category }) {
         name: 'Weather Dashboard',
         category: 'Full-stack Development',
         description: 'A place to keep up to date with the weather forecast. Check out Weather Dashboard.',
-        image: '/weather-dashboard.png',
+        image: '/portfolio-2/weather-dashboard.png',
         githubUrl: 'https://github.com/hayleyvuylsteke/weather-dashboard',
         deployedURL: 'https://hayleyvuylsteke.github.io/weather-dashboard/'
       },
@@ -61,21 +61,21 @@ function PortfolioItem({ category }) {
         name: 'South Coast Osteopathy',
         category: 'Marketing',
         description: 'A freelance website built on Wix, satisfying all of the clients requests. Copy, imagery and web design done by yours truly.',
-        image: '/s-c-o.png',
+        image: '/portfolio-2/s-c-o.png',
         deployedURL: 'https://www.southcoastosteopathy.com/'
       },
       {
         name: 'Axonify Grocery Blog',
         category: 'Marketing',
         description: 'If the pandemic taught us one thing, its that our grocery associates are superheros. Check out my (ghost-written) blog to see what we can all learn from grocers.',
-        image: '/Grocery-blog.png',
+        image: '/portfolio-2/Grocery-blog.png',
         deployedURL: 'https://axonify.com/blog/building-a-resilient-workforce-6-lessons-we-can-learn-from-grocers/'
       },
       {
         name: 'Axonify Retail Blog',
         category: 'Marketing',
         description: 'The right training and commnications platform can keep retail moving. In this (ghost-written) blog by me, I share how.',
-        image: '/retail-blog.png',
+        image: '/portfolio-2/retail-blog.png',
         deployedURL: 'https://axonify.com/blog/how-the-right-training-and-communications-keeps-retail-moving/'
       },
       ]);
