@@ -11,13 +11,13 @@ function AboutCarousel() {
     return (
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-            <img src="/Hayl1.jpg" className="d-block w-100" alt="My Family" />
+            <img src="/portfolio-2/Hayl1.jpg" className="d-block w-100" alt="My Family" />
           <Carousel.Caption>
             <h3>My Family</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-            <img src="/travel.jpg" className="d-block w-100" alt="Annual Mexico Trip"/>
+            <img src="/portfolio-2/travel.jpg" className="d-block w-100" alt="Annual Mexico Trip"/>
         <Carousel.Caption>
             <h3>Family Mexico Trip</h3>
           </Carousel.Caption>
