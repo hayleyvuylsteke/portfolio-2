@@ -37,6 +37,7 @@ function Contact() {
         if (!errorMessage) {
          setFormState({ [e.target.name]: e.target.value });
           console.log('Form', formState);
+          alert('Thank you! Your message has been sent.')
         }
       };
 
@@ -55,7 +56,7 @@ function Contact() {
                 </Col>
                 <Col className="col-lg-5 col-md-12">
                     <h5>Drop your details below!</h5>
-                    <Form>
+                    <Form onSubmit={handleSubmit}>
                         <Form.Group controlId="firstname">
                             <Form.Label>First name:</Form.Label>
                                 <Form.Control type="firstname" placeholder="Your first name" defaultValue={firstName} onBlur={handleChange} name="Your first name" />
@@ -79,7 +80,7 @@ function Contact() {
                         </Form.Group>
                         <br />
 
-                        <Button variant="primary" className="portfolio-button" onSubmit={handleSubmit} type="submit">GET IN TOUCH</Button>
+                        <Button variant="primary" className="portfolio-button" type="submit">GET IN TOUCH</Button>
                     </Form>
                 </Col>
                 <Col className="col-1" />
