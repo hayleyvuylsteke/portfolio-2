@@ -36,7 +36,7 @@ function Qualifications() {
                 Click on my areas of expertise to learn more about what I can do for your organization.
                 <br />
                 <br />
-                Still want to know more? Here's <a href="/Resume_Hayley_Vuylsteke.pdf" className="text-link">my resume</a>.
+                Still want to know more? Here's <a href="/portfolio-2/Resume_Hayley_Vuylsteke.pdf" className="text-link">my resume</a>.
                 </p>
                 </Col>
                 <Col className="col-lg-5 col-md-12">
