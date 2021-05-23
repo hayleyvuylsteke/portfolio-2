@@ -9,6 +9,14 @@ import Img from 'react-bootstrap/Image';
 function PortfolioItem({ category }) {
 
     const [portfolioItems] = useState([
+      {
+        name: 'currenSEED',
+        category: 'Full-stack Development',
+        description: 'A modern-day take on a farmers market. Take your kiosk digital.',
+        image: '/portfolio-2/currenseed.png',
+        githubUrl: 'https://github.com/DJ-KARMA/currenseed',
+        deployedURL: 'https://currenseed.herokuapp.com/'
+      },
         {
           name: 'Reward Bank',
           category: 'Full-stack Development',
